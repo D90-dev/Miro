@@ -1,0 +1,46 @@
+.inputs{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 30%;
+    gap: 40px;
+    justify-content: center;
+    margin: 60px auto;
+    @media only screen and (max-width: 1000px) {
+        width: 100%;
+    }
+    span{
+        padding: 20px;
+        border: 1px solid #E4E4E4;
+        margin: 0px 0px 0px 20px;
+        width: 200px;
+    @media only screen and (max-width: 700px) {
+        width: 100px;
+    }
+    }
+input{
+    width: 20%;
+}
+}
+
+.products{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 150px 60px 150px;
+    justify-content: center;
+    @media only screen and (max-width: 700px) {
+    padding: 0px 40px 40px 40px;
+
+    }
+
+}
+
+.range-input-button{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    outline: unset !important;
+}

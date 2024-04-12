@@ -1,0 +1,58 @@
+.darkBlue{
+    background-color: #2B2F3F;
+    color: white;
+    border: unset;
+    padding: 14px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0px 4px 4px 0px;
+    transition: 0.2s;
+
+}
+
+.darkBlueDefault{
+    background-color: #2B2F3F;
+    color: white;
+    border: unset;
+    padding: 14px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.2s;
+
+}
+
+.darkBlueDefault:hover{
+    background-color: #2b2f3fd0;
+    transition: 0.2s;
+}
+
+.darkBlue:hover{
+    background-color: #2b2f3fd0;
+    transition: 0.2s;
+}
+
+.transparent{
+    border: 1px solid #2B2F3F;
+    color: #2B2F3F;
+    background-color: transparent;
+    padding: 14px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 550;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.transparent:hover{
+    color: white;
+    background-color: #2B2F3F;
+}

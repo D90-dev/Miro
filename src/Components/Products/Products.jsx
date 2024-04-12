@@ -1,0 +1,88 @@
+const Products = [
+  {
+    img: "/products/product1.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "pink",
+    price: "300",
+    id: 1,
+  },
+  {
+    img: "/products/product2.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "silver",
+    price: "500",
+    id: 2,
+  },
+  {
+    img: "/products/product2.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "silver",
+    price: "700",
+    id: 3,
+  },
+  {
+    img: "/products/product3.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "gold",
+    price: "1000",
+    id: 4,
+  },
+  {
+    img: "/products/product3.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "gold",
+    price: "900",
+    id: 5,
+  },
+  {
+    img: "/products/product4.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "pink",
+    price: "200",
+    id: 6,
+  },
+  {
+    img: "/products/product3.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "gold",
+    price: "100",
+    id: 7,
+  },
+  {
+    img: "/products/product2.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "silver",
+    price: "700",
+    id: 8,
+  },
+  {
+    img: "/products/product1.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "pink",
+    price: "700",
+    id: 9,
+  },
+  {
+    img: "/products/product2.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "silver",
+    price: "900",
+    id: 10,
+  },
+  {
+    img: "/products/product3.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "gold",
+    price: "800",
+    id: 11,
+  },
+  {
+    img: "/products/product3.png",
+    title: "Eva Seamless Halo Engagement Ring",
+    type: "gold",
+    price: "500",
+    id: 12,
+  },
+];
+
+export default Products;

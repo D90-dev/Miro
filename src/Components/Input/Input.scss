@@ -1,0 +1,42 @@
+input{
+    border: unset;
+    border-bottom: 1px solid #0D0E1366;
+    padding: 12px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.jewelry{
+    background-image: url('/icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 21px;
+    padding-right: 35px;
+    
+}
+
+.navInput{
+    background-image: url('/icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 21px;
+    padding-left: 35px;
+}
+
+.footerInput{
+    border: 1px solid #0D0E1366;
+    background-image: url('/icons/email.svg');
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 21px;
+    padding-left: 45px;
+    background-color: transparent;
+    border-radius: 4px 0px 0px 4px;
+
+    
+}
+input:focus{
+    outline: unset;
+}

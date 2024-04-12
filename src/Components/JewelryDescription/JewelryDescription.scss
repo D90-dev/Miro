@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.jew-details{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+    &-container{
+        padding: 80px 130px;
+        justify-content: center;
+        @media only screen and (max-width: 700px) {
+            padding: 30px;
+        }
+    }
+    &-image{
+        width: 40%;
+        border: 1px solid #E4E4E4;
+        @media only screen and (max-width: 700px) {
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    &-description{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: max-content;
+        .price{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            p{
+                font-size: 24px;
+                color: #0D0E13;
+                font-weight: 600;
+                font-family: Montserrat;
+
+            }
+            span{
+                color: #0D0E13;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Montserrat;
+            }
+        }
+        .title{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h2{
+                font-size: 24px;
+                color: #0D0E13;
+                font-weight: 550;
+                font-family: Montserrat;
+
+            }
+            p{
+                color: #0D0E13;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: Montserrat;
+
+            }
+        }
+        .type{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            p{
+                color: #0D0E13;
+                font-size: 18px;
+                font-weight: 400;
+                font-family: Montserrat;
+            }
+            span{
+                font-weight: 600;
+                color: #0D0E13;
+                font-size: 18px;
+                word-spacing: 3px;
+                font-family: Montserrat;
+
+            }
+        }
+    }
+}

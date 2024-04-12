@@ -1,0 +1,39 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: auto;
+    @media only screen and (max-width: 1100px) {
+        width: 100%;
+    }
+    &__item{
+        width: 100%;
+        border-bottom: 1px solid #E4E4E4;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__question{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+        align-items: center;
+        button{
+            background-color: unset;
+            border: unset;
+            cursor: pointer;
+        }
+        h2{
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+    }
+    &__answer{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
